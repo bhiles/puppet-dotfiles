@@ -4,7 +4,7 @@ class dotfiles {
   repository {
     'my dotfiles':
       source   => 'git@github.com:bhiles/dotfiles.git',
-      path     => '/Users/bennetthiles/.dotfiles',
+      path     => '/Users/bennetthiles/.test-dotfiles',
       provider => 'git',
   }
 }
